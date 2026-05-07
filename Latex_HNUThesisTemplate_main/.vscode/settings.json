@@ -1,0 +1,50 @@
+﻿{
+    "latex-workshop.latex.autoBuild.run": "never",
+    "latex-workshop.latex.outDir": "%DIR%/build",
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "XeLaTeX",
+            "tools": [
+                "xelatex"
+            ]
+        },
+        {
+            "name": "XeLaTeX + BibTeX + XeLaTeX (x2)",
+            "tools": [
+                "xelatex",
+                "bibtex",
+                "xelatex",
+                "xelatex"
+            ]
+        }
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "xelatex",
+            "command": "C:/texlive/2026/bin/windows/xelatex.exe",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "bibtex",
+            "command": "C:/texlive/2026/bin/windows/bibtex.exe",
+            "args": [
+                "%DOCFILE%"
+            ],
+            "env": {}
+        }
+    ],
+    "[latex]": {
+        "editor.defaultFormatter": "James-Yu.latex-workshop"
+    },
+    "files.associations": {
+        "*.cls": "latex",
+        "*.sty": "latex",
+        "*.def": "latex"
+    }
+}

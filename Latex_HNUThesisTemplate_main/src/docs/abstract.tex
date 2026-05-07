@@ -1,0 +1,11 @@
+\begin{abstractCN}
+    针对传统手工用例建模效率低且易产生语义偏差的问题，本文设计并实现了一种基于多智能体协作与检索增强生成技术的自动化用例建模系统。系统后端基于FastAPI与LangGraph构建多Agent协同工作流，分步完成角色提取与关系推理，并通过断点机制支持人机协同确认；集成ChromaDB实现需求文档的向量化检索与上下文增强，缓解长文档信息丢失；提出PlantUML模板清洗与约束算法，确保生成代码完全合法。前端采用Vue 3与Monaco Editor，提供可视化建模与双向编辑。实验表明，本文提出的多 Agent 分步提取方案在类图、用例图和时序图的生成质量上均系统性优于单 Agent 方案。系统实现了全流程自动化建模，为软件需求分析提供了高效可靠的人机协同方案。
+
+    \keywordsCN 用例建模；大语言模型；多智能体协作；检索增强生成；PlantUML 渲染
+\end{abstractCN}
+
+\begin{abstractENG}
+    To address the challenges of low efficiency and semantic inconsistency in traditional manual use case modeling, this study designs and implements an automated use case modeling system based on multi-agent collaboration and Retrieval-Augmented Generation (RAG). The system backend utilizes FastAPI and LangGraph to construct a collaborative multi-agent workflow, performing incremental role extraction and relationship reasoning while supporting human-AI confirmation through a breakpoint mechanism. By integrating ChromaDB, the system achieves vectorized document retrieval and context enhancement, effectively mitigating information loss in long-document scenarios. Furthermore, PlantUML template cleaning and constraint algorithms are proposed to ensure 100\% syntactic validity of the generated code. The frontend employs Vue 3 and Monaco Editor to provide visual modeling and bidirectional editing. Experimental results indicate that the proposed multi-agent incremental extraction approach systematically outperforms the single-agent baseline in terms of generation quality for class, use case, and sequence diagrams. The system realizes full-process automated modeling, offering an efficient and reliable human-AI collaborative solution for software requirements analysis.
+
+    \keywordsENG use case modeling; large language model; multi-agent collaboration; retrieval-augmented generation; PlantUML rendering
+\end{abstractENG}

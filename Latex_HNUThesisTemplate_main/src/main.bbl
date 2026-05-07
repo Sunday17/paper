@@ -1,0 +1,217 @@
+\begin{thebibliography}{30}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \DeclareUrlCommand\doi{\urlstyle{rm}}
+  \def\eprint#1#2{#2}
+\else
+  \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+  \let\eprint\href
+\fi
+
+\bibitem[Cámara et~al.(2023)Cámara, Troya, Burgueño, Valle, and
+  García-Gaona]{camara2023assessment}
+CÁMARA J, TROYA J, BURGUEÑO L, et~al.
+\newblock On the assessment of generative AI in modeling tasks: an experience
+  report with ChatGPT and UML\allowbreak[J].
+\newblock Software and Systems Modeling, 2023, 22: 781-793.
+
+\bibitem[Vaswani et~al.(2017)Vaswani, Jones, Shazeer,
+  et~al.]{vaswani2017attention}
+VASWANI A, JONES L, SHAZEER N, et~al.
+\newblock Attention is all you need\allowbreak[C]//\allowbreak
+31st Conference on Neural Information Processing Systems (NIPS 2017).
+\newblock Long Beach: Google Brain, 2017.
+
+\bibitem[Ferrari et~al.(2024)Ferrari, Abualhaija, and Arora]{ferrari2024model}
+FERRARI A, ABUALHAIJA S, ARORA C.
+\newblock Model generation with LLMs: from requirements to UML sequence
+  diagrams\allowbreak[C]//\allowbreak
+2024 IEEE 32nd International Requirements Engineering Conference Workshops
+  (REW).
+\newblock Reykjavik: IEEE, 2024: 291-300.
+
+\bibitem[戴莉萍\ 等(2021)戴莉萍 and 王文乐]{dailiping2021}
+戴莉萍, 王文乐.
+\newblock {UML}实验中点放式建模与编程式建模探讨\allowbreak[J].
+\newblock 软件导刊, 2021, 20\allowbreak (8): 221-225.
+
+\bibitem[杨德辉\ 等(2025)杨德辉, 范子寅, 谢振,
+  et~al.]{yang2025software}
+杨德辉, 范子寅, 谢振, 等.
+\newblock
+  基于人工智能的软件需求分析方法实践与研究\allowbreak[J].
+\newblock 中国口岸科学技术, 2025\allowbreak (S1): 9-17.
+
+\bibitem[Giannouris et~al.(2025)Giannouris and Ananiadou]{giannouris2025nomad}
+GIANNOURIS P, ANANIADOU S.
+\newblock NOMAD: a multi-agent LLM system for UML class diagram generation from
+  natural language requirements\allowbreak[C]//\allowbreak
+Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software
+  Engineering and Measurement.
+\newblock Manchester: University of Manchester, 2025.
+
+\bibitem[王飞\ 等(2018)王飞, 杨志斌, 黄志球, et~al.]{wangfei2018}
+王飞, 杨志斌, 黄志球, 等.
+\newblock
+  基于限定自然语言需求模板的{AADL}模型生成方法\allowbreak[J].
+\newblock 软件学报, 2018, 29\allowbreak (8): 2350-2370.
+
+\bibitem[More et~al.(2012)More and Phalnikar]{more2012generating}
+MORE P, PHALNIKAR R.
+\newblock Generating UML diagrams from natural language
+  specifications\allowbreak[J].
+\newblock International Journal of Applied Information Systems, 2012,
+  1\allowbreak (8): 19-23.
+
+\bibitem[Meng et~al.(2024)Meng and Ban]{meng2024automated}
+MENG Y, BAN A.
+\newblock Automated UML class diagram generation from textual requirements
+  using NLP techniques\allowbreak[J].
+\newblock JOIV: International Journal on Informatics Visualization, 2024,
+  8\allowbreak (3-2): 1905-1915.
+
+\bibitem[Abdelnabi(2020)]{abdelnabi2020generating}
+ABDELNABI E~A.
+\newblock Generating UML class diagram using NLP techniques and heuristic
+  rules\allowbreak[D].
+\newblock Benghazi: Benghazi University, 2020.
+
+\bibitem[赵会盼(2021)]{zhaohuipan2021}
+赵会盼.
+\newblock
+  一种基于{UML}的面向对象的软件需求分析方法\allowbreak[J].
+\newblock 电子技术与软件工程, 2021\allowbreak (9): 63-65.
+
+\bibitem[袁中锦\ 等(2026)袁中锦, 黄翰, 向毅,
+  et~al.]{yuan2026automatedadgc}
+袁中锦, 黄翰, 向毅, 等.
+\newblock
+  融合中文需求文本语义特征的{UML}活动图自动生成方法\allowbreak[J].
+\newblock 软件学报, 2026, 37\allowbreak (4): 1650-1670.
+
+\bibitem[Wang et~al.(2024)Wang, Wang, and Liang]{wang2024llms}
+WANG B, WANG C, LIANG P.
+\newblock How LLMs aid in UML modeling: an exploratory study with novice
+  analysts\allowbreak[C]//\allowbreak
+Proceedings of the 19th International Conference on Evaluation of Novel
+  Approaches to Software Engineering (ENASE).
+\newblock Wuhan: Wuhan University, 2024.
+
+\bibitem[De~Bari et~al.(2024)De~Bari, Garaccione, and
+  Coppola]{debari2024evaluating}
+DE~BARI D, GARACCIONE G, COPPOLA R.
+\newblock Evaluating large language models in exercises of UML class diagram
+  modeling\allowbreak[C]//\allowbreak
+Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software
+  Engineering and Measurement (ESEM'24).
+\newblock New York: ACM, 2024: 393-399.
+
+\bibitem[Fill et~al.(2023)Fill, Fettke, and Köpke]{fill2023conceptual}
+FILL H~G, FETTKE P, KÖPKE J.
+\newblock Conceptual modeling and large language models: impressions from first
+  experiments with ChatGPT\allowbreak[J].
+\newblock Enterprise Modelling and Information Systems Architectures, 2023,
+  18\allowbreak (3): 1-15.
+
+\bibitem[Chen et~al.(2023)Chen, López, Yang, and Chen]{chen2023automated}
+CHEN K, LÓPEZ J~A~H, YANG Y, et~al.
+\newblock Automated domain modeling with large language models: a comparative
+  study\allowbreak[C]//\allowbreak
+2023 ACM/IEEE 26th International Conference on Model Driven Engineering
+  Languages and Systems (MODELS).
+\newblock New York: IEEE, 2023: 162-172.
+
+\bibitem[Nguyen et~al.(2026)Nguyen, Koe, Wang, Arora, and
+  Ferrari]{nguyen2026class}
+NGUYEN J, KOE R~E, WANG F, et~al.
+\newblock Class model generation from requirements using large language
+  models\allowbreak[A/OL].
+\newblock arXiv (2026).
+\newblock \url{https://arxiv.org/abs/2603.09100v1}.
+
+\bibitem[Li et~al.(2023)Li, Hammoud, Itani, Khizr, and Mourad]{li2023camel}
+LI G, HAMMOUD H~A~A~K, ITANI H, et~al.
+\newblock CAMEL: communicative agents for "Mind" exploration of large language
+  model society\allowbreak[C]//\allowbreak
+37th Conference on Neural Information Processing Systems (NeurIPS 2023).
+\newblock New Orleans: NeurIPS, 2023.
+
+\bibitem[Wu et~al.(2023)Wu, Bansal, Zhang, et~al.]{wu2023autogen}
+WU Q, BANSAL G, ZHANG J, et~al.
+\newblock AutoGen: enabling next-gen LLM applications via multi-agent
+  conversation\allowbreak[Z].
+\newblock Redmond: Microsoft Research, 2023.
+
+\bibitem[Qian et~al.(2023)Qian, Li, Liu, et~al.]{qian2023chatdev}
+QIAN C, LI J, LIU W, et~al.
+\newblock ChatDev: communicative agents for software development\allowbreak[Z].
+\newblock Beijing: Tsinghua University, 2023.
+
+\bibitem[Nguyen et~al.(2026)Nguyen, Nguyen, Nguyen, et~al.]{nguyen2026novel}
+NGUYEN V~V, NGUYEN H~K, NGUYEN K~S, et~al.
+\newblock A novel unified framework for automated generation and multimodal
+  validation of UML diagrams\allowbreak[J].
+\newblock Computer Modeling in Engineering \& Sciences, 2026, 146\allowbreak
+  (1): 33.
+
+\bibitem[Nair et~al.(2025)Nair, Thushara, and Sugumaran]{nair2025finetuned}
+NAIR R~P, THUSHARA M~G, SUGUMARAN V.
+\newblock Fine-tuned LLMs versus rule-based NLP for UML diagram generation: an
+  educational evaluation\allowbreak[J].
+\newblock IEEE Access, 2025, 13: 211605-211619.
+
+\bibitem[DeepSeek-AI(2025)]{deepseek2025r1}
+DEEPSEEK-AI.
+\newblock DeepSeek-R1: incentivizing reasoning capability in LLMs via
+  reinforcement learning\allowbreak[Z].
+\newblock Hangzhou, 2025.
+
+\bibitem[肖宏彬\ 等(2026)肖宏彬, 刘旺龙, 谭舒孺,
+  et~al.]{xiao2026problemframes}
+肖宏彬, 刘旺龙, 谭舒孺, 等.
+\newblock
+  基于问题框架的智能{Agent}需求建模方法\allowbreak[J/OL].
+\newblock 武汉大学学报(理学版), 2026.
+\newblock DOI: \doi{10.14188/j.1671-8836.2026.0011}.
+
+\bibitem[徐亚南(2025)]{xu2025cloudnative}
+徐亚南.
+\newblock 基于云原生的政务人工智能建模平台\allowbreak[J].
+\newblock 信息技术与标准化, 2025\allowbreak (4): 50-56.
+
+\bibitem[Eisenreich et~al.(2025)Eisenreich, Friedlaender, and
+  Wagner]{eisenreich2025leveraging}
+EISENREICH T, FRIEDLAENDER N, WAGNER S.
+\newblock Leveraging large language models for use case model generation from
+  software requirements\allowbreak[C]//\allowbreak
+Proceedings of the 29th International Conference on Evaluation and Assessment
+  in Software Engineering.
+\newblock Munich: Technical University of Munich, 2025.
+
+\bibitem[张戈\ 等(2026)张戈, 侯雅情, 马良, et~al.]{zhang2026teaching}
+张戈, 侯雅情, 马良, 等.
+\newblock
+  基于生成式人工智能的{UML}建模教学设计与实践\allowbreak[J].
+\newblock 计算机教育, 2026\allowbreak (3): 314-319.
+
+\bibitem[李嘉威\ 等(2025)李嘉威, 邓媛丹, and 陈波]{li2025domainuml}
+李嘉威, 邓媛丹, 陈波.
+\newblock 基于微调{Qwen2}自动构建领域{UML}模型\allowbreak[J].
+\newblock 计算机科学, 2025, 52\allowbreak (6A): 1-4.
+
+\bibitem[Xie et~al.(2026)Xie, Ni, and Liu]{xie2026iterative}
+XIE H, NI F, LIU J.
+\newblock Iterative requirements-driven business process modeling and
+  verification with large language models\allowbreak[J].
+\newblock Applied Sciences, 2026, 16\allowbreak (1): 518.
+
+\bibitem[宋桂平(2025)]{song2025umlai}
+宋桂平.
+\newblock
+  新范式下UML建模工具与人工智能的协同应用\allowbreak[J].
+\newblock 信息记录材料, 2025, 26\allowbreak (12): 106-108.
+
+\end{thebibliography}
