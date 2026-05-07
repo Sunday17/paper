@@ -1,0 +1,21 @@
+\begin{abstractCN}
+
+    需求分析是软件开发全生命周期的关键起点，传统手工UML建模普遍存在效率低下、周期长、易出现语义偏差等问题，已难以满足现代软件工程需求。大语言模型虽为自动化建模带来新可能，但在处理长文档需求时，仍面临上下文遗忘、逻辑幻觉、输出格式不合法等难题，直接影响建模的准确性与实用性。针对这些痛点，本文设计并实现了一套基于多智能体协作与检索增强生成的自动化用例建模系统。系统基于LangGraph构建智能体状态机，将复杂建模任务拆解为实体提取、关系推理、属性分析等专业化子任务，有效降低模型认知负载；通过ChromaDB建立向量库与RAG检索机制，缓解长文本信息丢失问题；同时设置人机交互断点，支持用户审核修正中间结果，在提升效率的同时显著增强建模可靠性。
+
+    系统实现上采用FastAPI搭建后端服务，以DeepSeek为推理模型，结合Jinja2模板引擎，保证生成的PlantUML代码格式规范、渲染成功率高。前端基于Vue 3开发，实现数据表格与Monaco Editor双向同步，支持增量式建模与实时编辑，为用户提供灵活流畅的交互体验，整体形成一套可落地、可交互、可校验的自动化建模流程。
+
+    实验结果显示，在图书馆管理系统等三个典型案例中，本系统多智能体分步方案的综合F1值达到0.63–0.70，显著优于单Agent方案，尤其在逻辑关联推理维度提升明显。研究验证了任务分解与检索增强能够有效提升自动化建模的鲁棒性与完整性。目前建模效果仍受原始需求文档质量限制，未来将结合领域模型微调与GraphRAG技术进一步优化，持续推进语义驱动、人机协同的智能化需求建模新范式。
+
+    \keywordsCN 用例建模；大语言模型；多智能体协作；检索增强生成；PlantUML 渲染
+\end{abstractCN}
+
+\begin{abstractENG}
+
+    This paper presents an automated use case modeling system based on multi-agent collaboration and retrieval-augmented generation to address the inefficiencies, long cycles, and semantic deviations of traditional manual UML modeling, as well as the context forgetting, logical hallucination, and format violations of LLMs when processing lengthy requirements. Using LangGraph, the system constructs an agent state machine that decomposes modeling into specialized subtasks—entity extraction, relation reasoning, and attribute analysis—reducing model cognitive load. ChromaDB and RAG mitigate long-text information loss, while human-in-the-loop checkpoints allow users to review and correct intermediate results, enhancing both reliability and efficiency.
+    
+    In the system implementation, FastAPI is used to build back-end services, DeepSeek is used as the reasoning model, and Jinja2 template engine is combined to ensure that the generated PlantUML code format is standardized and the rendering success rate is high. 
+
+    The front-end is developed based on Vue 3, which realizes two-way synchronization between data tables and Monaco Editor, supports incremental modeling and real-time editing, provides users with a flexible and smooth interactive experience, and forms a set of landing, interactive and verifiable automatic modeling process.
+
+    \keywordsENG use case modeling; large language model; multi-agent collaboration; retrieval-augmented generation; PlantUML rendering
+\end{abstractENG}
